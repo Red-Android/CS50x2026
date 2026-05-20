@@ -1,10 +1,10 @@
 #include <stdio.h>
 int main(void)
 {
-    printf("Do you Agree? \n");
-    c = getchar();
+    printf("Do you Agree? ");
+    char c = getchar();
 
-    if ( c = = 'y' || c == 'Y' )
+    if ( c == 'y' || c == 'Y' )
     {
         printf("You Agree! \n");
     }
