@@ -1,2 +1,15 @@
 #include <stdio.h>
-#include <cs50.h>
+int main(void)
+{
+    printf("Do you Agree? \n");
+    c = getchar();
+
+    if ( c = = 'y' || c == 'Y' )
+    {
+        printf("You Agree! \n");
+    }
+    else
+    {
+        printf("You Disagree! \n");
+    }
+}
